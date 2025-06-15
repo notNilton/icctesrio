@@ -1,0 +1,59 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Dr. Wilmar Pereira dos Santos",
+      "role": "President",
+      "bio": "Lawyer with over 30 years of experience, specialized and holding a postgraduate degree in Civil Procedural Law. He works in Administrative Law and strategic public, procedural and environmental legal consulting. He served as Chief Prosecutor of the Planning and Environment department of the Municipality of Búzios.",
+      "skills": [
+        "Civil Procedural Law",
+        "Administrative Law",
+        "Environmental Legal Consulting"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Raphael Souza Fonseca",
+      "role": "Administrative and Financial Director",
+      "bio": "Economist and entrepreneur, with a background at Ipiranga S/A, Grupo Abril, Mongeral Aegon, and Banco de Arbi. He has been active as a real-estate entrepreneur for 12 years.",
+      "skills": [
+        "Budget Planning",
+        "Cost Control",
+        "Real Estate Entrepreneurship"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Giovanna Guida da Cunha",
+      "role": "Projects Director",
+      "bio": "Architect with experience in major events (Rock in Rio, The Town, Parque dos Dinossauros, Parque das Aves) and currently working on the UN Climate Conference (COP) project in Belém, Pará.",
+      "skills": [
+        "Event Architecture",
+        "Project Management",
+        "Space Design"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Daniel Machado Magalhães de Almeida",
+      "role": "Secretary",
+      "bio": "Advertising professional and entrepreneur in the gastronomy sector, with 21 years of experience in events, gastronomy and culture. He has led venues such as Aqua Bossa Lounge, Grupo Rayz, People and Devassa.",
+      "skills": [
+        "Event Production",
+        "Gastronomy",
+        "Advertising"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Armando Lito",
+      "role": "Partner, Consultant & Fundraiser",
+      "bio": "Bachelor in Administration from the Faculty of Political and Economic Sciences of Rio de Janeiro. He has managed PAN since June 1997 with a team of university students skilled in the cultural market and knowledgeable about the tax-incentive laws, ordinances and guidelines of the Ministry of Culture and Sports, as well as the State and Municipal Culture Secretaries. As Administration Manager he has worked on over 150 socio-cultural and sports projects (Espaço Tom Jobim, Rio Cena Contemporânea, Artcena, Rio International Cello Encounter, Interactive Circus Center, etc.).",
+      "skills": [
+        "Administration",
+        "Fundraising",
+        "Tax-Incentive Law"
+      ]
+    }
+  ]
+}

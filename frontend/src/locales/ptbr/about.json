@@ -1,0 +1,59 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "Dr. Wilmar Pereira dos Santos",
+      "role": "Presidente",
+      "bio": "Advogado com mais de 30 anos de experiência, especialista e pós-graduado em Direito Processual Civil. Atua em Direito Administrativo e consultoria jurídica pública estratégica, processual e ambiental. Foi Procurador-Chefe da área de Planejamento e Meio Ambiente do Município de Búzios.",
+      "skills": [
+        "Direito Processual Civil",
+        "Direito Administrativo",
+        "Consultoria Jurídica Ambiental"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Raphael Souza Fonseca",
+      "role": "Diretor Administrativo e Financeiro",
+      "bio": "Economista e empresário, com passagens por Ipiranga S/A, Grupo Abril, Mongeral Aegon e Banco de Arbi. Atua há 12 anos como empreendedor no setor imobiliário.",
+      "skills": [
+        "Planejamento Orçamentário",
+        "Controle de Custos",
+        "Empreendedorismo Imobiliário"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Giovanna Guida da Cunha",
+      "role": "Diretora de Projetos",
+      "bio": "Arquiteta com experiência em grandes eventos (Rock in Rio, The Town, Parque dos Dinossauros, Parque das Aves) e atualmente trabalha no projeto COP (Conferência do Clima da ONU) em Belém do Pará.",
+      "skills": [
+        "Arquitetura de Eventos",
+        "Gestão de Projetos",
+        "Design de Espaços"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Daniel Machado Magalhães de Almeida",
+      "role": "Secretário",
+      "bio": "Publicitário e empresário do ramo de gastronomia, com 21 anos de experiência em eventos, gastronomia e cultura. Já esteve à frente de espaços como Aqua Bossa Lounge, Grupo Rayz, People e Devassa.",
+      "skills": [
+        "Produção de Eventos",
+        "Gastronomia",
+        "Publicidade"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Armando Lito",
+      "role": "Parceiro, Consultor e Captador",
+      "bio": "Bacharel em Administração pela Faculdade de Ciências Políticas e Econômicas do Rio de Janeiro. Dirige a PAN desde 1997 com uma equipe especializada em leis de incentivo fiscal, captação de recursos e execução de projetos socioculturais e esportivos.",
+      "skills": [
+        "Administração",
+        "Captação de Recursos",
+        "Leis de Incentivo Fiscal"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "sectionTitle": "Historical Timeline",
+  "items": [
+    {
+      "id": 1,
+      "year": "1985",
+      "title": "Founding Committee",
+      "shortDescription": "Initiated in 1985 by a group of professors and researchers aiming to create an institute that would unite science, culture, and technology.",
+      "longDescription": "In 1985, professors and researchers from various fields met to define the institute’s mission, vision, and values, laying the groundwork for multidisciplinary collaborations across science, culture, and technology. This pioneering gathering drafted the governance charter and established the founding committee."
+    },
+    {
+      "id": 2,
+      "year": "1990",
+      "title": "Official Establishment",
+      "shortDescription": "Officially established in 1990 with a focus on academic research and technological innovation.",
+      "longDescription": "The 1990 founding ceremony was attended by academic and government dignitaries. Shortly thereafter, the first research grant programs, academic exchange initiatives, and innovation projects were launched, attracting national and international talent to conduct cutting-edge research."
+    },
+    {
+      "id": 3,
+      "year": "1990–Present",
+      "title": "Ongoing Development",
+      "shortDescription": "Since then, the institute has carried out projects, partnerships, and initiatives in support of culture, sports, tourism, social programs, and the environment.",
+      "longDescription": "Over the past decades, the institute has solidified its role in society through cultural initiatives, sports programs, sustainable tourism efforts, and social projects that benefit local communities. It has also implemented environmental responsibility policies and carried out applied research for regional development, forging partnerships both nationally and internationally."
+    }
+  ]
+}
