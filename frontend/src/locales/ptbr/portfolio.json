@@ -16,8 +16,7 @@
         "Kit de boas-vindas oficial",
         "Premiação por categoria",
         "Transporte interno no campo"
-      ],
-      "image": "/src/assets/images/portfolio/golf-olimpico.png"
+      ]
     },
     {
       "id": 2,
@@ -32,8 +31,7 @@
         "Painéis com Governo, Embrapa, BNDES, Finep, Petrobras e Confap",
         "Pesquisadores da UFRJ, UFV e IAC",
         "Inscrições gratuitas em bit.ly/eventofertilizantes_2024"
-      ],
-      "image": "/src/assets/images/portfolio/evento-fertilizantes.png"
+      ]
     },
     {
       "id": 3,
@@ -47,8 +45,7 @@
         "Desenvolvimento de disciplina, autoconfiança e espírito de equipe",
         "Aulas ministradas por instrutores certificados",
         "Parcerias com organizações sociais locais"
-      ],
-      "image": "/src/assets/images/portfolio/projeto-boxe-praia.png"
+      ]
     },
     {
       "id": 4,
@@ -62,8 +59,7 @@
         "Poda de árvores, tapa-buracos e ações de manutenção",
         "Ação inédita de despoluição na Praia da Ribeira",
         "Projeto de Lei Jardins das Ilhas Cariocas: circuito turístico, cultural e gastronômico"
-      ],
-      "image": "/src/assets/images/portfolio/mutirao-baia-limpa.png"
+      ]
     },
     {
       "id": 5,
@@ -77,8 +73,7 @@
         "Show de estreia: Mulheres & Beatles",
         "Foco em Bossa Nova e MPB",
         "Adoção de leis de incentivo cultural"
-      ],
-      "image": "/src/assets/images/portfolio/aqua-bossa.png"
+      ]
     },
     {
       "id": 6,
@@ -92,8 +87,7 @@
         "Data: 15 de janeiro",
         "Entrada franca",
         "Realização: Conexão Vivo & FAZCULTURA"
-      ],
-      "image": "/src/assets/images/portfolio/pipoca-carioca.png"
+      ]
     },
     {
       "id": 7,
@@ -108,8 +102,7 @@
         "Drinks autorais assinados pelo Bar Chef Elvis Zonzini",
         "Menu especial assinado pelo Chef Daniel Pinho",
         "Entradas gratuita"
-      ],
-      "image": "/src/assets/images/portfolio/inauguracao-aqua.png"
+      ]
     }
   ]
 }

@@ -1,4 +1,5 @@
 // src/pages/PortfolioPage.tsx
+
 import React, { FC } from "react";
 import {
   Box,
@@ -6,10 +7,28 @@ import {
   Divider,
   useTheme,
   useMediaQuery,
-  Button,
 } from "@mui/material";
 import { useTranslation } from "react-i18next";
-import { NavLink } from "react-router-dom";
+
+// 1) importe as mesmas imagens que mapeamos nos outros componentes
+import golfOlimpico from "../assets/images/portfolio/golf-olimpico.png";
+import eventoFertilizantes from "../assets/images/portfolio/evento-fertilizantes.png";
+import projetoBoxe from "../assets/images/portfolio/projeto-boxe-praia.png";
+import mutiraoBaia from "../assets/images/portfolio/mutirao-baia-limpa.png";
+import aquaBossa from "../assets/images/portfolio/aqua-bossa.png";
+import pipocaCarioca from "../assets/images/portfolio/pipoca-carioca.png";
+import inauguracaoAqua from "../assets/images/portfolio/inauguracao-aqua.png";
+
+// 2) crie o map de id → import
+const imageMap: Record<number, string> = {
+  1: golfOlimpico,
+  2: eventoFertilizantes,
+  3: projetoBoxe,
+  4: mutiraoBaia,
+  5: aquaBossa,
+  6: pipocaCarioca,
+  7: inauguracaoAqua,
+};
 
 interface DetailItem {
   id: number;
@@ -17,7 +36,7 @@ interface DetailItem {
   description: string;
   longText: string;
   details: string[];
-  image: string;
+  // NOTE: não declaramos `image` aqui, pois vamos injetar depois
 }
 
 const PortfolioPage: FC = () => {
@@ -25,11 +44,14 @@ const PortfolioPage: FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-  const items = t("items", { returnObjects: true }) as DetailItem[];
-  const backToHome = t("backToHome") as string;
+  // 3) carrega do JSON sem image e injeta a importação certa
+  const rawItems = t("items", { returnObjects: true }) as DetailItem[];
+  const items = rawItems.map(item => ({
+    ...item,
+    image: imageMap[item.id],
+  }));
 
   return (
-    // remover gutters e usar margem de 10% em cada lado
     <Box sx={{ px: "20%", py: 6 }}>
       {items.map((proj, idx) => {
         const isImageLeft = idx % 2 === 0;
@@ -49,7 +71,7 @@ const PortfolioPage: FC = () => {
               gap: 4,
             }}
           >
-            {/* Imagem ocupa 50% em desktop, 100% em mobile */}
+            {/* Imagem */}
             <Box
               component="img"
               src={proj.image}
@@ -63,7 +85,7 @@ const PortfolioPage: FC = () => {
               }}
             />
 
-            {/* Texto ocupa 50% em desktop, 100% em mobile */}
+            {/* Texto */}
             <Box
               sx={{
                 width: isMobile ? "100%" : "50%",

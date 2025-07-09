@@ -16,8 +16,7 @@
         "Official welcome kit",
         "Category awards",
         "On-course shuttle service"
-      ],
-      "image": "/src/assets/images/portfolio/golf-olimpico.png"
+      ]
     },
     {
       "id": 2,
@@ -32,8 +31,7 @@
         "Panels with Government, Embrapa, BNDES, Finep, Petrobras, Confap",
         "Researchers from UFRJ, UFV, and IAC",
         "Free registration at bit.ly/eventofertilizers_2024"
-      ],
-      "image": "/src/assets/images/portfolio/evento-fertilizantes.png"
+      ]
     },
     {
       "id": 3,
@@ -47,8 +45,7 @@
         "Development of discipline, confidence, and teamwork",
         "Classes led by certified instructors",
         "Partnerships with local social organizations"
-      ],
-      "image": "/src/assets/images/portfolio/projeto-boxe-praia.png"
+      ]
     },
     {
       "id": 4,
@@ -62,8 +59,7 @@
         "Tree pruning, pothole repairs, and maintenance actions",
         "First-ever sand cleanup at Ribeira Beach",
         "‘Carioca Islands Gardens’ bill: a cultural, gastronomic, and tourism circuit"
-      ],
-      "image": "/src/assets/images/portfolio/mutirao-baia-limpa.png"
+      ]
     },
     {
       "id": 5,
@@ -77,8 +73,7 @@
         "Opening show: Mulheres & Beatles",
         "Focus on Bossa Nova and MPB",
         "Utilization of cultural incentive laws"
-      ],
-      "image": "/src/assets/images/portfolio/aqua-bossa.png"
+      ]
     },
     {
       "id": 6,
@@ -92,8 +87,7 @@
         "Date: January 15",
         "Free admission",
         "Presented by Conexão Vivo & FAZCULTURA"
-      ],
-      "image": "/src/assets/images/portfolio/pipoca-carioca.png"
+      ]
     },
     {
       "id": 7,
@@ -108,8 +102,7 @@
         "Signature cocktails by Bar Chef Elvis Zonzini",
         "Special menu by Chef Daniel Pinho",
         "Free entry"
-      ],
-      "image": "/src/assets/images/portfolio/inauguracao-aqua.png"
+      ]
     }
   ]
 }

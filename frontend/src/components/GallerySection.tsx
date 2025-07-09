@@ -1,4 +1,5 @@
 // src/components/GallerySection.tsx
+
 import React, { FC, useState } from "react";
 import {
   Box,
@@ -15,11 +16,34 @@ import ArrowBackIosNewIcon from "@mui/icons-material/ArrowBackIosNew";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useTranslation } from "react-i18next";
 
+// 1) importe as imagens
+import golfOlimpico from "../assets/images/portfolio/golf-olimpico.png";
+import eventoFertilizantes from "../assets/images/portfolio/evento-fertilizantes.png";
+import projetoBoxe from "../assets/images/portfolio/projeto-boxe-praia.png";
+import mutiraoBaia from "../assets/images/portfolio/mutirao-baia-limpa.png";
+import aquaBossa from "../assets/images/portfolio/aqua-bossa.png";
+import pipocaCarioca from "../assets/images/portfolio/pipoca-carioca.png";
+import inauguracaoAqua from "../assets/images/portfolio/inauguracao-aqua.png";
+
+// 2) mapeie cada id ao seu import
+const imageMap: Record<number, string> = {
+  1: golfOlimpico,
+  2: eventoFertilizantes,
+  3: projetoBoxe,
+  4: mutiraoBaia,
+  5: aquaBossa,
+  6: pipocaCarioca,
+  7: inauguracaoAqua,
+};
+
 interface ProjectItem {
   id: number;
   title: string;
   description: string;
-  image: string;
+  date: string;
+  longText: string;
+  details: string[];
+  // não declaramos `image` aqui: vamos injetar depois
 }
 
 const GallerySection: FC = () => {
@@ -27,10 +51,13 @@ const GallerySection: FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-  // Pega o array completo do JSON de portfolio
-  const items = t("items", { returnObjects: true }) as ProjectItem[];
+  // 3) pega os itens do JSON (sem imagem) e injeta o caminho correto
+  const rawItems = t("items", { returnObjects: true }) as ProjectItem[];
+  const items = rawItems.map(item => ({
+    ...item,
+    image: imageMap[item.id],
+  }));
 
-  // Agora usamos "items" como nossa galeria
   const [open, setOpen] = useState(false);
   const [current, setCurrent] = useState(0);
 
@@ -57,27 +84,25 @@ const GallerySection: FC = () => {
           mx: isMobile ? 2 : "15vw",
         }}
       >
-        {/* Título */}
-      <Typography
-        variant={isMobile ? "h5" : "h2"}
-        sx={{
-          mb: 4,
-          fontWeight: 900,
-          textAlign: "center",
-          background: `linear-gradient(
-      45deg,
-      ${theme.palette.primary.dark} 0%,
-      ${theme.palette.grey[800]} 50%,
-      #000000 100%
-    )`,
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-        }}
-      >
-          Nossa Galeria
+        <Typography
+          variant={isMobile ? "h5" : "h2"}
+          sx={{
+            mb: 4,
+            fontWeight: 900,
+            textAlign: "center",
+            background: `linear-gradient(
+              45deg,
+              ${theme.palette.primary.dark} 0%,
+              ${theme.palette.grey[800]} 50%,
+              #000000 100%
+            )`,
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
+        >
+          {t("galleryTitle", "Nossa Galeria")}
         </Typography>
 
-        {/* Thumbnails */}
         <ImageList variant="masonry" cols={isMobile ? 2 : 3} gap={8}>
           {items.map((proj, idx) => (
             <ImageListItem
@@ -89,13 +114,12 @@ const GallerySection: FC = () => {
                 src={proj.image}
                 alt={proj.title}
                 loading="lazy"
-                style={{ display: "block", width: "100%" }}
+                style={{ width: "100%", display: "block" }}
               />
             </ImageListItem>
           ))}
         </ImageList>
 
-        {/* Modal full-screen */}
         <Dialog fullScreen open={open} onClose={handleClose}>
           <Box
             sx={{
@@ -105,20 +129,13 @@ const GallerySection: FC = () => {
               backgroundColor: "#000",
             }}
           >
-            {/* Fechar */}
             <IconButton
               onClick={handleClose}
-              sx={{
-                position: "absolute",
-                top: 16,
-                right: 16,
-                color: "#fff",
-                zIndex: 10,
-              }}
+              sx={{ position: "absolute", top: 16, right: 16, color: "#fff", zIndex: 10 }}
             >
               <CloseIcon />
             </IconButton>
-            {/* Navegação */}
+
             <IconButton
               onClick={prev}
               sx={{
@@ -132,6 +149,7 @@ const GallerySection: FC = () => {
             >
               <ArrowBackIosNewIcon />
             </IconButton>
+
             <IconButton
               onClick={next}
               sx={{
@@ -146,7 +164,6 @@ const GallerySection: FC = () => {
               <ArrowForwardIosIcon />
             </IconButton>
 
-            {/* Imagem em foco */}
             <Box
               component="img"
               src={items[current].image}
@@ -159,7 +176,6 @@ const GallerySection: FC = () => {
               }}
             />
 
-            {/* Rodapé com título e descrição */}
             <Box
               sx={{
                 position: "absolute",
