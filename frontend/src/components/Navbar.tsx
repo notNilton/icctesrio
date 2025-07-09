@@ -82,12 +82,23 @@ const Navbar: FC = () => {
         borderRadius: 0,
       }}
     >
-      <Toolbar
-        disableGutters
-        sx={{ justifyContent: "space-between", px: 3, py: 1 }}
-      >
-        {/* Logo + Texto */}
-        <Box sx={{ display: "flex", alignItems: "center" }}>
+      <Toolbar disableGutters sx={{ justifyContent: "space-between", px: 3, py: 1 }}>
+        {/* Logo + Texto clicáveis e com hover */}
+        <Box
+          component={NavLink}
+          to="/"
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            textDecoration: "none",
+            color: theme.palette.text.primary,
+            transition: "transform 0.2s ease, color 0.2s ease",
+            "&:hover": {
+              transform: "scale(1.05)",
+              color: ACTIVE_COLOR,
+            },
+          }}
+        >
           <Box
             component="img"
             src={isMobile ? mobileLogo : desktopLogo}
@@ -100,7 +111,6 @@ const Navbar: FC = () => {
               ml: 1,
               fontSize: isMobile ? "1rem" : "1.25rem",
               fontWeight: 700,
-              color: theme.palette.text.primary,
               userSelect: "none",
             }}
           >
@@ -151,11 +161,7 @@ const Navbar: FC = () => {
                 </MenuItem>
               ))}
               <Box sx={{ px: 2, pt: 1 }}>
-                <ButtonGroup
-                  size="small"
-                  variant="outlined"
-                  sx={{ borderRadius: 0, width: "100%" }}
-                >
+                <ButtonGroup size="small" variant="outlined" sx={{ borderRadius: 0, width: "100%" }}>
                   <Button
                     onClick={() => changeLang("en")}
                     variant={i18n.language.startsWith("en") ? "contained" : "outlined"}
@@ -174,25 +180,12 @@ const Navbar: FC = () => {
           </>
         ) : (
           <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
-            {/* Links */}
             {NAV_LINKS.map((link) => (
-              <Button
-                key={link.to}
-                component={NavLink}
-                to={link.to}
-                end
-                sx={linkSx(theme)}
-              >
+              <Button key={link.to} component={NavLink} to={link.to} end sx={linkSx(theme)}>
                 {t(link.key)}
               </Button>
             ))}
-
-            {/* Alternador de idioma dual */}
-            <ButtonGroup
-              size="small"
-              variant="outlined"
-              sx={{ ml: 3, "& .MuiButtonGroup-grouped": { borderRadius: 0 } }}
-            >
+            <ButtonGroup size="small" variant="outlined" sx={{ ml: 3, "& .MuiButtonGroup-grouped": { borderRadius: 0 } }}>
               <Button
                 onClick={() => changeLang("en")}
                 variant={i18n.language.startsWith("en") ? "contained" : "outlined"}
