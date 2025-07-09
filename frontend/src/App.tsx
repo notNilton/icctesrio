@@ -17,7 +17,6 @@ import Footer from "./components/Footer";
 
 import HomePage from "./pages/HomePage";
 import PortfolioPage from "./pages/PortfolioPage";
-import ProjectPage from "./pages/ProjectPage";
 import GalleryPage from "./pages/GalleryPage";
 import AboutUsPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
@@ -55,6 +54,7 @@ const App: FC = () => (
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/home" element={<HomePage />} />
+
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/galeria" element={<GalleryPage />} />
             <Route path="/sobre-nos" element={<AboutUsPage />} />
