@@ -1,90 +1,26 @@
 {
-  "sectionTitle": "Publications",
-  "sectionDescription": "Explore our recent events and initiatives that impact the community and promote local culture.",
+  "sectionTitle": "Our Publications",
+  "sectionDescription": "Explore our recent highlights and special events.",
   "items": [
     {
       "id": 1,
-      "title": "Olympic Golf",
-      "description": "Olympic golf championship held in Rio",
-      "date": "2024-05-12",
-      "longText": "The Olympic Golf Championship brought together athletes from around the world in Rio de Janeiro. It was a historic event marking the return of golf as an Olympic sport.",
-      "details": [
-        "Location: Rio de Janeiro, Brazil",
-        "Participants: 60 athletes",
-        "Total prize: $2 million"
-      ]
+      "title": "Aqua Women & Beatles",
+      "description": "Musical gatherings at Espaço Aqua celebrating female performances with a Beatles tribute."
     },
     {
       "id": 2,
-      "title": "Fertilizer Expo",
-      "description": "International fertilizer and agriculture fair",
-      "date": "2023-11-08",
-      "longText": "The Fertilizer Expo showcased the latest innovations in plant nutrition, bringing together suppliers, researchers, and agricultural producers from around the globe.",
-      "details": [
-        "Booths: 120 exhibitors",
-        "Attendance: 8,000 visitors",
-        "Technical lectures and workshops"
-      ]
+      "title": "Aqua Cover Show",
+      "description": "Exclusive cover show at Espaço Aqua, featuring a thematic repertoire and striking audiovisual production."
     },
     {
       "id": 3,
-      "title": "Beach Boxing Project",
-      "description": "Social initiative offering outdoor boxing classes",
-      "date": "2024-02-20",
-      "longText": "The Beach Boxing Project brings health and sports culture to coastal communities, offering free classes and promoting an active lifestyle.",
-      "details": [
-        "Certified instructors",
-        "Classes three times a week",
-        "Partnership with local NGOs"
-      ]
+      "title": "Sound with a Brazilian Accent",
+      "description": "A showcase of Brazilian music highlighting regional rhythms and local artists."
     },
     {
       "id": 4,
-      "title": "Clean Bay Cleanup",
-      "description": "Community cleanup action in Guanabara Bay",
-      "date": "2023-09-15",
-      "longText": "The Clean Bay Cleanup mobilized volunteers and NGOs in a large operation to remove solid waste from the shoreline, improving water quality and raising public awareness.",
-      "details": [
-        "Volunteers: 500 people",
-        "Waste collected: 3 tons",
-        "Support from city governments and companies"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Aqua Bossa",
-      "description": "Beach music and cultural festival",
-      "date": "2024-06-18",
-      "longText": "Aqua Bossa combines live music, gourmet food trucks, and street art, celebrating beach culture in a family-friendly event.",
-      "details": [
-        "Bands: 10 acts",
-        "Gourmet food trucks",
-        "Sold out in 3 days"
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Pipoca Carioca",
-      "description": "Outdoor cinema screenings by the waterfront",
-      "date": "2023-12-05",
-      "longText": "Pipoca Carioca screens classic films under the stars, bringing culture and free entertainment to the local community.",
-      "details": [
-        "Films: 15 screenings",
-        "Estimated audience: 4,500 people",
-        "Sponsored by the Department of Culture"
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Aqua Park Grand Opening",
-      "description": "Opening of the new themed water park",
-      "date": "2024-04-01",
-      "longText": "The Aqua Park inaugurated its new thrilling attractions, featuring interactive water slides and leisure areas for all ages.",
-      "details": [
-        "Water slides: 8 designs",
-        "Kids area: aquatic playground",
-        "Tickets: advanced online sales"
-      ]
+      "title": "‘Sete Vidas’ Launch Party",
+      "description": "All the highlights from the ‘Sete Vidas’ launch party, from behind-the-scenes to the main moments."
     }
   ]
 }

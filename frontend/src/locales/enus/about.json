@@ -1,12 +1,13 @@
 {
   "aboutSectionTitle": "Our Team",
   "aboutSectionDescription": "Meet the passionate professionals who drive our commitment to excellence, innovation, and community impact.",
+  "aboutSponsorsTitle": "Our Main Sporsors",
   "team": [
     {
       "id": 1,
       "name": "Dr. Wilmar Pereira dos Santos",
       "role": "President",
-      "bio": "Lawyer with over 30 years of experience, specialized and holding a postgraduate degree in Civil Procedural Law. He works in Administrative Law and strategic public, procedural and environmental legal consulting. He served as Chief Prosecutor of the Planning and Environment department of the Municipality of Búzios.",
+      "bio": "Lawyer with over 30 years of experience and a postgraduate degree in Civil Procedural Law. Specialist in Administrative Law and strategic legal consulting—public, procedural, and environmental. Former Chief Prosecutor for Planning and Environment at the Municipality of Búzios.",
       "skills": [
         "Civil Procedural Law",
         "Administrative Law",
@@ -17,7 +18,7 @@
       "id": 2,
       "name": "Raphael Souza Fonseca",
       "role": "Administrative and Financial Director",
-      "bio": "Economist and entrepreneur, with a background at Ipiranga S/A, Grupo Abril, Mongeral Aegon, and Banco de Arbi. He has been active as a real-estate entrepreneur for 12 years.",
+      "bio": "Economist and entrepreneur with a track record at Ipiranga S/A, Grupo Abril, Mongeral Aegon, and Banco de Arbi. For the past 12 years, he has focused on real estate entrepreneurship.",
       "skills": [
         "Budget Planning",
         "Cost Control",
@@ -28,7 +29,7 @@
       "id": 3,
       "name": "Giovanna Guida da Cunha",
       "role": "Projects Director",
-      "bio": "Architect with experience in major events (Rock in Rio, The Town, Parque dos Dinossauros, Parque das Aves) and currently working on the UN Climate Conference (COP) project in Belém, Pará.",
+      "bio": "Architect experienced in major events such as Rock in Rio, The Town, Dinosaur Park, and Bird Park. Currently leading the architecture for the UN Climate Conference (COP) project in Belém, Pará.",
       "skills": [
         "Event Architecture",
         "Project Management",
@@ -39,7 +40,7 @@
       "id": 4,
       "name": "Daniel Machado Magalhães de Almeida",
       "role": "Secretary",
-      "bio": "Advertising professional and entrepreneur in the gastronomy sector, with 21 years of experience in events, gastronomy and culture. He has led venues such as Aqua Bossa Lounge, Grupo Rayz, People and Devassa.",
+      "bio": "Advertising professional and gastronomy entrepreneur with 21 years of experience in events, food, and culture. Led venues such as Aqua Bossa Lounge, Grupo Rayz, People, and Devassa, and was appointed Secretary of our association.",
       "skills": [
         "Event Production",
         "Gastronomy",
@@ -50,7 +51,7 @@
       "id": 5,
       "name": "Armando Lito",
       "role": "Partner, Consultant & Fundraiser",
-      "bio": "Bachelor in Administration from the Faculty of Political and Economic Sciences of Rio de Janeiro. He has managed PAN since June 1997 with a team of university students skilled in the cultural market and knowledgeable about the tax-incentive laws, ordinances and guidelines of the Ministry of Culture and Sports, as well as the State and Municipal Culture Secretaries. As Administration Manager he has worked on over 150 socio-cultural and sports projects (Espaço Tom Jobim, Rio Cena Contemporânea, Artcena, Rio International Cello Encounter, Interactive Circus Center, etc.).",
+      "bio": "Bachelor in Administration from the Faculty of Political and Economic Sciences of Rio de Janeiro. Since June 1997, he has led PAN with a team of university students specializing in tax-incentive law and fundraising. As Administration Manager, he has coordinated over 150 socio-cultural and sports projects—from Espaço Tom Jobim to the Rio International Cello Encounter.",
       "skills": [
         "Administration",
         "Fundraising",

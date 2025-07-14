@@ -14,24 +14,32 @@ import { useTranslation } from "react-i18next";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-// 1) Importe as imagens diretamente do diretório de assets:
-import golfOlimpico from "../assets/images/portfolio/golf-olimpico.png";
-import eventoFertilizantes from "../assets/images/portfolio/evento-fertilizantes.png";
-import projetoBoxe from "../assets/images/portfolio/projeto-boxe-praia.png";
-import mutiraoBaia from "../assets/images/portfolio/mutirao-baia-limpa.png";
-import aquaBossa from "../assets/images/portfolio/aqua-bossa.png";
-import pipocaCarioca from "../assets/images/portfolio/pipoca-carioca.png";
-import inauguracaoAqua from "../assets/images/portfolio/inauguracao-aqua.png";
+// 1) importe as imagens
+import golfOlimpico from "../assets/images/portfolio/port-golfolimpico.png";
+import eventoFertilizantes from "../assets/images/portfolio/port-fertilizantes.png";
+import projetoEsporteLegado from "../assets/images/portfolio/port-esportelegado.png";
+import mutiraoBaia from "../assets/images/portfolio/port-mutiraobaialimpa.png";
+import aquaBossalounge from "../assets/images/portfolio/port-aquabossalounge.png";
+import pipocaCarioca from "../assets/images/portfolio/port-pipocacarioca.png";
+import inauguracaoAqua from "../assets/images/portfolio/port-inauguracaoaqua.png";
+import atelierDoAroma from "../assets/images/portfolio/port-atelierdoaroma.png";
+import flavioGuimaraes from "../assets/images/portfolio/port-flavioguimaraes.png";
+import oscarIocas from "../assets/images/portfolio/port-oscariocas.png";
+import showInLua from "../assets/images/portfolio/port-showinlua.png";
 
-// 2) Mapeie cada `id` ao seu arquivo de imagem:
+// 2) mapeie cada `id` ao seu import
 const imageMap: Record<number, string> = {
   1: golfOlimpico,
   2: eventoFertilizantes,
-  3: projetoBoxe,
+  3: projetoEsporteLegado,
   4: mutiraoBaia,
-  5: aquaBossa,
+  5: aquaBossalounge,
   6: pipocaCarioca,
   7: inauguracaoAqua,
+  8: atelierDoAroma,
+  9: flavioGuimaraes,
+  10: oscarIocas,
+  11: showInLua,
 };
 
 interface ProjectItem {

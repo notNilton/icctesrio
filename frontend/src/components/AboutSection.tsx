@@ -4,16 +4,21 @@ import {
   Box,
   Avatar,
   Typography,
-  Divider,
   useTheme,
   useMediaQuery,
 } from "@mui/material";
 import { useTranslation } from "react-i18next";
 
-import avatar1 from "../assets/images/team/alice.png";
-import avatar2 from "../assets/images/team/bruno.png";
-import avatar3 from "../assets/images/team/carla.png";
-import avatar4 from "../assets/images/team/diego.png";
+import pfpwilmar from "../assets/images/team/pfp-wilmar.png";
+import pfpraphael from "../assets/images/team/pfp-raphael.png";
+import pfpgiovanna from "../assets/images/team/pfp-giovanna.png";
+import pfpdaniel from "../assets/images/team/pfp-daniel.png";
+import pfparmando from "../assets/images/team/pfp-armando.png";
+
+// Importe os logos dos patrocinadores
+import logoAmbev    from "../assets/images/sponsors/logo-ambev.png";
+import logoHeineken from "../assets/images/sponsors/logo-heineken.png";
+import logoSonrisal from "../assets/images/sponsors/logo-sonrisal.png";
 
 interface Member {
   id: number;
@@ -23,10 +28,11 @@ interface Member {
 }
 
 const avatarMap: Record<number, string> = {
-  1: avatar1,
-  2: avatar2,
-  3: avatar3,
-  4: avatar4,
+  1: pfpwilmar,
+  2: pfpraphael,
+  3: pfpgiovanna,
+  4: pfpdaniel,
+  5: pfparmando,
 };
 
 const AboutSection: FC = () => {
@@ -34,9 +40,9 @@ const AboutSection: FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-  const aboutSectionTitle = t("aboutSectionTitle");
+  const aboutSectionTitle       = t("aboutSectionTitle");
   const aboutSectionDescription = t("aboutSectionDescription");
-
+  const aboutSponsorsTitle      = t("aboutSponsorsTitle");
   const team = t("team", { returnObjects: true }) as Member[];
 
   return (
@@ -57,11 +63,11 @@ const AboutSection: FC = () => {
           fontWeight: 900,
           textAlign: "center",
           background: `linear-gradient(
-      45deg,
-      ${theme.palette.primary.dark} 0%,
-      ${theme.palette.grey[800]} 50%,
-      #000000 100%
-    )`,
+            45deg,
+            ${theme.palette.primary.dark} 0%,
+            ${theme.palette.grey[800]} 50%,
+            #000000 100%
+          )`,
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
         }}
@@ -87,6 +93,7 @@ const AboutSection: FC = () => {
         {aboutSectionDescription}
       </Typography>
 
+      {/* EQUIPE */}
       <Box
         component="ul"
         sx={{
@@ -104,7 +111,6 @@ const AboutSection: FC = () => {
             : idx % 2 === 0
             ? "row"
             : "row-reverse";
-
           const textAlign = isMobile
             ? "center"
             : idx % 2 === 0
@@ -136,10 +142,7 @@ const AboutSection: FC = () => {
               <Box sx={{ textAlign }}>
                 <Typography
                   variant="h6"
-                  sx={{
-                    fontWeight: 600,
-                    color: theme.palette.text.primary,
-                  }}
+                  sx={{ fontWeight: 600, color: theme.palette.text.primary }}
                 >
                   {emp.name}
                 </Typography>
@@ -156,10 +159,7 @@ const AboutSection: FC = () => {
                 </Typography>
                 <Typography
                   variant="body2"
-                  sx={{
-                    color: theme.palette.text.secondary,
-                    lineHeight: 1.6,
-                  }}
+                  sx={{ color: theme.palette.text.secondary, lineHeight: 1.6 }}
                 >
                   {emp.bio}
                 </Typography>
@@ -167,6 +167,51 @@ const AboutSection: FC = () => {
             </Box>
           );
         })}
+      </Box>
+
+      {/* PATROCÍNIOS */}
+      <Typography
+        variant={isMobile ? "h6" : "h4"}
+        sx={{
+          mt: 8,
+          mb: 4,
+          fontWeight: 700,
+          textAlign: "center",
+          background: `linear-gradient(
+            45deg,
+            ${theme.palette.primary.dark} 0%,
+            ${theme.palette.grey[800]} 50%,
+            #000000 100%
+          )`,
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
+        }}
+      >
+        {aboutSponsorsTitle}
+      </Typography>
+
+      <Box
+        sx={{
+          display: "flex",
+          flexWrap: isMobile ? "wrap" : "nowrap",
+          justifyContent: "center",
+          alignItems: "center",
+          gap: isMobile ? 2 : 6,
+        }}
+      >
+        {[logoAmbev, logoHeineken, logoSonrisal].map((logo, i) => (
+          <Box
+            key={i}
+            component="img"
+            src={logo}
+            alt={`Sponsor ${i + 1}`}
+            sx={{
+              height: isMobile ? 32 : 48,
+              objectFit: "contain",
+              m: isMobile ? 1 : 0,
+            }}
+          />
+        ))}
       </Box>
     </Box>
   );

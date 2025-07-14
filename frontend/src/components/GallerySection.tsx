@@ -17,23 +17,31 @@ import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 import { useTranslation } from "react-i18next";
 
 // 1) importe as imagens
-import golfOlimpico from "../assets/images/portfolio/golf-olimpico.png";
-import eventoFertilizantes from "../assets/images/portfolio/evento-fertilizantes.png";
-import projetoBoxe from "../assets/images/portfolio/projeto-boxe-praia.png";
-import mutiraoBaia from "../assets/images/portfolio/mutirao-baia-limpa.png";
-import aquaBossa from "../assets/images/portfolio/aqua-bossa.png";
-import pipocaCarioca from "../assets/images/portfolio/pipoca-carioca.png";
-import inauguracaoAqua from "../assets/images/portfolio/inauguracao-aqua.png";
+import golfOlimpico from "../assets/images/portfolio/port-golfolimpico.png";
+import eventoFertilizantes from "../assets/images/portfolio/port-fertilizantes.png";
+import projetoEsporteLegado from "../assets/images/portfolio/port-esportelegado.png";
+import mutiraoBaia from "../assets/images/portfolio/port-mutiraobaialimpa.png";
+import aquaBossalounge from "../assets/images/portfolio/port-aquabossalounge.png";
+import pipocaCarioca from "../assets/images/portfolio/port-pipocacarioca.png";
+import inauguracaoAqua from "../assets/images/portfolio/port-inauguracaoaqua.png";
+import atelierDoAroma from "../assets/images/portfolio/port-atelierdoaroma.png";
+import flavioGuimaraes from "../assets/images/portfolio/port-flavioguimaraes.png";
+import oscarIocas from "../assets/images/portfolio/port-oscariocas.png";
+import showInLua from "../assets/images/portfolio/port-showinlua.png";
 
-// 2) mapeie cada id ao seu import
+// 2) mapeie cada `id` ao seu import
 const imageMap: Record<number, string> = {
   1: golfOlimpico,
   2: eventoFertilizantes,
-  3: projetoBoxe,
+  3: projetoEsporteLegado,
   4: mutiraoBaia,
-  5: aquaBossa,
+  5: aquaBossalounge,
   6: pipocaCarioca,
   7: inauguracaoAqua,
+  8: atelierDoAroma,
+  9: flavioGuimaraes,
+  10: oscarIocas,
+  11: showInLua,
 };
 
 interface ProjectItem {
@@ -43,7 +51,6 @@ interface ProjectItem {
   date: string;
   longText: string;
   details: string[];
-  // não declaramos `image` aqui: vamos injetar depois
 }
 
 const GallerySection: FC = () => {
@@ -51,13 +58,11 @@ const GallerySection: FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-    // Traduzidos:
   const gallerySectionTitle = t("gallerySectionTitle");
   const gallerySectionDescription = t("gallerySectionDescription");
 
-  // 3) pega os itens do JSON (sem imagem) e injeta o caminho correto
   const rawItems = t("items", { returnObjects: true }) as ProjectItem[];
-  const items = rawItems.map(item => ({
+  const items = rawItems.map((item) => ({
     ...item,
     image: imageMap[item.id],
   }));
@@ -88,44 +93,43 @@ const GallerySection: FC = () => {
           mx: isMobile ? 2 : "15vw",
         }}
       >
-      {/* TÍTULO */}
-      <Typography
-        variant={isMobile ? "h5" : "h2"}
-        sx={{
-          mb: 4,
-          fontWeight: 900,
-          textAlign: "center",
-          background: `linear-gradient(
+        {/* TÍTULO */}
+        <Typography
+          variant={isMobile ? "h5" : "h2"}
+          sx={{
+            mb: 4,
+            fontWeight: 900,
+            textAlign: "center",
+            background: `linear-gradient(
       45deg,
       ${theme.palette.primary.dark} 0%,
       ${theme.palette.grey[800]} 50%,
       #000000 100%
     )`,
-          WebkitBackgroundClip: "text",
-          WebkitTextFillColor: "transparent",
-        }}
-      >
-        {gallerySectionTitle}
-      </Typography>
+            WebkitBackgroundClip: "text",
+            WebkitTextFillColor: "transparent",
+          }}
+        >
+          {gallerySectionTitle}
+        </Typography>
 
-      {/* DESCRIÇÃO */}
-      <Typography
-        variant={isMobile ? "body1" : "h6"}
-        sx={{
-          maxWidth: 640,
-          mx: "auto",
-          mb: 6,
-          fontWeight: 400,
-          textAlign: "center",
-          color: theme.palette.text.secondary,
-          lineHeight: 1.6,
-          letterSpacing: 0.5,
-          px: { xs: 2, sm: 0 },
-        }}
-      >
-        {gallerySectionDescription}
-      </Typography>
-
+        {/* DESCRIÇÃO */}
+        <Typography
+          variant={isMobile ? "body1" : "h6"}
+          sx={{
+            maxWidth: 640,
+            mx: "auto",
+            mb: 6,
+            fontWeight: 400,
+            textAlign: "center",
+            color: theme.palette.text.secondary,
+            lineHeight: 1.6,
+            letterSpacing: 0.5,
+            px: { xs: 2, sm: 0 },
+          }}
+        >
+          {gallerySectionDescription}
+        </Typography>
 
         <ImageList variant="masonry" cols={isMobile ? 2 : 3} gap={8}>
           {items.map((proj, idx) => (
@@ -155,7 +159,13 @@ const GallerySection: FC = () => {
           >
             <IconButton
               onClick={handleClose}
-              sx={{ position: "absolute", top: 16, right: 16, color: "#fff", zIndex: 10 }}
+              sx={{
+                position: "absolute",
+                top: 16,
+                right: 16,
+                color: "#fff",
+                zIndex: 10,
+              }}
             >
               <CloseIcon />
             </IconButton>

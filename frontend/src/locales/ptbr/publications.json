@@ -1,90 +1,26 @@
 {
-  "sectionTitle": "Publicações",
-  "sectionDescription": "Explore nossos eventos e iniciativas recentes que impactam a comunidade e promovem a cultura local.",
+  "sectionTitle": "Nossas Publicações",
+  "sectionDescription": "As nossas mais recentes aparências nos jornais.",
   "items": [
     {
       "id": 1,
-      "title": "Golf Olímpico",
-      "description": "Campeonato de golfe olímpico realizado no Rio",
-      "date": "2024-05-12",
-      "longText": "O Campeonato de Golf Olímpico reuniu atletas de todo o mundo no Rio de Janeiro. Foi um evento histórico que marcou a volta do golfe como esporte olímpico.",
-      "details": [
-        "Local: Rio de Janeiro, Brasil",
-        "Participantes: 60 atletas",
-        "Premiação total: US$ 2 milhões"
-      ]
+      "title": "Aqua Mulheres & Beatles",
+      "description": "Encontros musicais no Espaço Aqua celebrando performances femininas com tributo aos Beatles."
     },
     {
       "id": 2,
-      "title": "Evento Fertilizantes",
-      "description": "Feira internacional de fertilizantes e agricultura",
-      "date": "2023-11-08",
-      "longText": "A Feira de Fertilizantes apresentou as últimas inovações em nutrição de plantas, reunindo fornecedores, pesquisadores e produtores agrícolas de todo o planeta.",
-      "details": [
-        "Estandes: 120 expositores",
-        "Público: 8.000 visitantes",
-        "Palestras técnicas e workshops"
-      ]
+      "title": "Capa Show Aqua",
+      "description": "Cover show exclusivo no Espaço Aqua, com repertório temático e produção audiovisual impactante."
     },
     {
       "id": 3,
-      "title": "Projeto Boxe na Praia",
-      "description": "Iniciativa social de aulas de boxe ao ar livre",
-      "date": "2024-02-20",
-      "longText": "O Projeto Boxe na Praia leva saúde e cultura esportiva a comunidades costeiras, oferecendo aulas gratuitas e promovendo estilo de vida ativo.",
-      "details": [
-        "Instrutores certificados",
-        "Aulas 3 vezes por semana",
-        "Parceria com ONGs locais"
-      ]
+      "title": "Som com Sotaque Tupiniquim",
+      "description": "Apresentação de músicas brasileiras com sotaque regional, destacando ritmos e artistas locais."
     },
     {
       "id": 4,
-      "title": "Mutirão Baía Limpa",
-      "description": "Ação de limpeza comunitária da Baía de Guanabara",
-      "date": "2023-09-15",
-      "longText": "O Mutirão Baía Limpa mobilizou voluntários e ONGs em uma grande operação de retirada de resíduos sólidos da orla, melhorando a qualidade da água e conscientizando a população.",
-      "details": [
-        "Voluntários: 500 pessoas",
-        "Resíduos coletados: 3 toneladas",
-        "Apoio de prefeituras e empresas"
-      ]
-    },
-    {
-      "id": 5,
-      "title": "Aqua Bossa",
-      "description": "Festival de música e cultura na praia",
-      "date": "2024-06-18",
-      "longText": "O Aqua Bossa combina música ao vivo, gastronomia e arte de rua, celebrando a cultura praiana em um evento para toda a família.",
-      "details": [
-        "Bandas: 10 atrações",
-        "Gastronomia: food trucks gourmet",
-        "Ingressos esgotados em 3 dias"
-      ]
-    },
-    {
-      "id": 6,
-      "title": "Pipoca Carioca",
-      "description": "Sessões de cinema ao ar livre na orla",
-      "date": "2023-12-05",
-      "longText": "O Pipoca Carioca exibe clássicos do cinema sob as estrelas, trazendo cultura e entretenimento gratuito para a comunidade local.",
-      "details": [
-        "Filmes: 15 sessões",
-        "Público estimado: 4.500 pessoas",
-        "Patrocínio: Secretaria de Cultura"
-      ]
-    },
-    {
-      "id": 7,
-      "title": "Inauguração Aqua Park",
-      "description": "Abertura do novo parque aquático temático",
-      "date": "2024-04-01",
-      "longText": "O Aqua Park inaugurou suas novas atrações radicais, com toboáguas interativos e áreas de lazer para todas as idades.",
-      "details": [
-        "Toboáguas: 8 modelos",
-        "Área infantil: playground aquático",
-        "Bilheteria: venda antecipada online"
-      ]
+      "title": "Lançamento 'Sete Vidas'",
+      "description": "Veja tudo o que rolou na festa de lançamento de 'Sete Vidas', dos bastidores aos principais momentos."
     }
   ]
 }

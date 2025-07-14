@@ -18,23 +18,17 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 // 1) Importe as imagens diretamente do diretório de assets:
-import golfOlimpico from "../assets/images/portfolio/golf-olimpico.png";
-import eventoFertilizantes from "../assets/images/portfolio/evento-fertilizantes.png";
-import projetoBoxe from "../assets/images/portfolio/projeto-boxe-praia.png";
-import mutiraoBaia from "../assets/images/portfolio/mutirao-baia-limpa.png";
-import aquaBossa from "../assets/images/portfolio/aqua-bossa.png";
-import pipocaCarioca from "../assets/images/portfolio/pipoca-carioca.png";
-import inauguracaoAqua from "../assets/images/portfolio/inauguracao-aqua.png";
+import aquamulher from "../assets/images/publications/pub-aquamulher.png";
+import capashow from "../assets/images/publications/pub-capashow.png";
+import setevidas from "../assets/images/publications/pub-setevidas.png";
+import socomsotaque from "../assets/images/publications/pub-somcomsotaque.png";
 
 // 2) Mapeie cada `id` ao seu arquivo de imagem:
 const imageMap: Record<number, string> = {
-  1: golfOlimpico,
-  2: eventoFertilizantes,
-  3: projetoBoxe,
-  4: mutiraoBaia,
-  5: aquaBossa,
-  6: pipocaCarioca,
-  7: inauguracaoAqua,
+  1: aquamulher,
+  2: capashow,
+  3: socomsotaque,
+  4: setevidas,
 };
 
 interface ProjectItem {

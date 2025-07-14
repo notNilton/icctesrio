@@ -103,6 +103,63 @@
         "Menu especial assinado pelo Chef Daniel Pinho",
         "Entradas gratuita"
       ]
+    },
+    {
+      "id": 8,
+      "title": "Atelier do Aroma",
+      "description": "Oficina sensorial de criação de fragrâncias naturais, unindo arte olfativa e conexão com a natureza.",
+      "date": "19 de maio",
+      "longText": "No Atelier do Aroma, conduzido por Bruna, os participantes exploram essências botânicas para criar suas próprias fragrâncias personalizadas. A experiência inclui identificação de notas de base, coração e topo, além de técnicas de blending e composição. Este projeto promove uma imersão criativa, incentivando o olhar atento aos aromas que nos cercam e reforçando o vínculo entre o homem e o meio ambiente.",
+      "details": [
+        "Conduzido por: Bruna (especialista em perfumaria natural)",
+        "Formato: workshop prático de 2 horas",
+        "Conteúdo: teoria olfativa, blending e composição de fragrâncias",
+        "Material incluso: kits de essências naturais e frascos de vidro",
+        "Vagas limitadas – inscrições antecipadas"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Flavio Guimarães Feature",
+      "description": "Conversa especial com o músico e artista Flavio Guimarães, com participação de Cristiano Crochemore.",
+      "date": "Hoje, 19 de maio",
+      "longText": "Nesta edição, recebemos Flavio Guimarães para um encontro descontraído no palco do Rayz Aqua. O artista compartilha histórias sobre sua trajetória musical e processos criativos, enquanto o convidado especial Cristiano Crochemore traz insights sobre produção sonora e arranjos.",
+      "details": [
+        "Local: Rayz Aqua (Ipanema)",
+        "Convidado especial: Cristiano Crochemore",
+        "Horário: a partir das 19h",
+        "Entrada gratuita",
+        "Transmissão ao vivo nas redes sociais"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Os Cariocas Live Performance",
+      "description": "Apresentação especial do grupo vocal Os Cariocas com clássicos da música brasileira.",
+      "date": "27 e 28 de fevereiro, 21h",
+      "longText": "Nos dias 27 e 28 de fevereiro, o icônico quarteto Os Cariocas subirá ao palco do Rayz Aqua para revisitar sucessos que marcaram gerações. Conhecidos por suas harmonias perfeitas e repertório atemporal, eles prometem uma noite inesquecível de Bossa Nova, samba e MPB.",
+      "details": [
+        "Local: Rayz Aqua (Ipanema)",
+        "Datas: 27 e 28 de fevereiro",
+        "Horário: 21h",
+        "Ingressos à venda online e na bilheteria",
+        "Classificação indicativa: Livre"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Soul in Lua",
+      "description": "Festa de encerramento com Jesuton, DJ Negralha, Cortuah e André Rodrigues, mais participações especiais.",
+      "date": "01 de fevereiro (Última Noite)",
+      "longText": "No dia 1º de fevereiro, viva a última noite do Soul in Lua no Espaço Aqua! Acompanha Jesuton em show envolvente, embalada pelas pick-ups de DJ Negralha, Cortuah e André Rodrigues. Prepare-se para participações-surpresa, pista vibrante e uma experiência sonora que celebra o melhor da música negra.",
+      "details": [
+        "Line-up principal: Jesuton, DJ Negralha, Cortuah, André Rodrigues",
+        "DJ convidado: Nepal",
+        "Data: 01 de fevereiro (Última Noite)",
+        "Local: Rua Prudente de Moraes, 416 – Ipanema",
+        "Apoio: Heineken",
+        "Classificação: Livre"
+      ]
     }
   ]
 }
