@@ -25,6 +25,7 @@ import { useTranslation } from "react-i18next";
 const NAV_LINKS = [
   { key: "home", to: "/" },
   { key: "portfolio", to: "/portfolio" },
+  { key: "publications", to: "/publicacoes" },
   { key: "gallery", to: "/galeria" },
   { key: "aboutUs", to: "/sobre-nos" },
   { key: "contact", to: "/contato" },

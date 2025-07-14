@@ -7,6 +7,7 @@ import TimelineSection from "../components/TimelineSection";
 import GallerySection from "../components/GallerySection";
 import AboutSection from "../components/AboutSection";
 import ContactSection from "../components/ContactSection";
+import PublicationsSection from "../components/PublicationsSection";
 
 const Home: FC = () => {
   const theme = useTheme();
@@ -17,6 +18,10 @@ const Home: FC = () => {
   return (
     <Box component="main">
       <PortfolioSection />
+
+      <Divider sx={{ borderColor: "#000", my: dividerMargin }} />
+
+      <PublicationsSection />
 
       <Divider sx={{ borderColor: "#000", my: dividerMargin }} />
 

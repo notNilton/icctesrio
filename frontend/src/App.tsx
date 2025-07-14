@@ -20,6 +20,7 @@ import PortfolioPage from "./pages/PortfolioPage";
 import GalleryPage from "./pages/GalleryPage";
 import AboutUsPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import PublicationsPage from "./pages/PublicationsPage";
 
 const Layout: FC<React.PropsWithChildren<{}>> = ({ children }) => {
   const { pathname } = useLocation();
@@ -56,6 +57,7 @@ const App: FC = () => (
             <Route path="/home" element={<HomePage />} />
 
             <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/publicacoes" element={<PublicationsPage />} />
             <Route path="/galeria" element={<GalleryPage />} />
             <Route path="/sobre-nos" element={<AboutUsPage />} />
             <Route path="/contato" element={<ContactPage />} />

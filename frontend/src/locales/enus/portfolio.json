@@ -1,15 +1,15 @@
 {
-  "sectionTitle": "Our Portfolio",
-  "buttonText": "Learn More",
-  "backToHome": "Back to Home",
-  "detailsButton": "Learn More",
+  "portfolioSectionTitle": "Our Main Projects",
+  "portfolioSectionDescription": "Explore our projects and initiatives that reflect our commitment to excellence and innovation.",
+  "gallerySectionTitle": "Inttitute Gallery",
+  "gallerySectionDescription": "Explore our projects and initiatives that reflect our commitment to excellence and innovation.",
   "items": [
     {
       "id": 1,
-      "title": "Sporting Events at the Olympic Golf Course",
-      "description": "7th Olympic Golf Course Open 2025",
+      "title": "Sports Events at Olympic Golf",
+      "description": "VII Olympic Field Open 2025",
       "date": "23–25 May 2025",
-      "longText": "From May 23 to 25, 2025, the 7th Olympic Golf Course Open—presented by IFS—will bring together over 100 golfers from across Brazil at the Olympic Golf Course, a legacy of the Rio 2016 Games. Over three days of competition (Friday the 23rd, Saturday the 24th, and Sunday the 25th), athletes in the Scratch and Handicap categories (up to 8.5; 8.6–14; 14.1–20 for men; and Scratch and up to 16 for women) will play 54 holes under the R&A Rules of St. Andrews and the CBGolfe Code of Conduct, earning points for world, national, and state rankings. Open to the public, the event also features Chef Piero’s Barbecue Festival (May 24, 1 PM–5 PM) and a grand closing show with Evandro Mesquita & Fabulous Tab (May 25, starting at 4:30 PM), preceded by a performance from Banda Quarto 17. It’s an exceptional blend of sport, gastronomy, and culture in Barra da Tijuca.",
+      "longText": "From May 23 to 25, 2025, the VII Olympic Field Open by IFS will bring together over 100 golfers from across Brazil at the Olympic Golf Course, a legacy of the Rio 2016 Games. Over three days of competition (Friday the 23rd, Saturday the 24th, and Sunday the 25th), athletes in Scratch and Handicap categories (up to 8.5; 8.6–14; 14.1–20 for men; and Scratch and up to 16 for women) will play 54 holes under the R&A Rules of St. Andrews and the CBGolfe Code of Conduct, earning points for world, national, and state rankings. Open to the public, the event also features Chef Piero’s Barbecue Festival (24/05, 1 PM–5 PM) and a grand closing concert with Evandro Mesquita & Fabulous Tab (25/05, from 4:30 PM), opening for the band Quarto 17. All set against a backdrop of sporting excellence, gastronomy, and culture in Barra da Tijuca.",
       "details": [
         "Full green fee",
         "Daily coffee breaks",
@@ -21,27 +21,27 @@
     {
       "id": 2,
       "title": "Environmental Lecture Series",
-      "description": "Strengthening Rio’s Fertilizer Supply Chain",
+      "description": "Strengthening the Fertilizer Supply Chain in Rio",
       "date": "11 September 2024, 09:00–19:00",
-      "longText": "On September 11, 2024, the Rio de Janeiro State Government will host a forum at Casa G20 (Laura Alvim Cultural Center) in Ipanema dedicated to strengthening Brazil’s fertilizer supply chain. Interim Secretary Fernanda Curdi will open the event, featuring a keynote by Upendra Singh (IFDC, USA) and panel discussions with representatives from the Ministry of Agriculture, Ministry of Mines and Energy, BNDES, Finep, Embrapa, Sinprifert, Anda, Abisolo, Petrobras, Confap, SP Ventures, and Porto do Açu, as well as researchers from UFRJ, UFV, and IAC. The goal is to explore technological innovations, biodiversity, and food security in line with the National Fertilizer Plan 2050 and the establishment of the CEFENP Center of Excellence in the state.",
+      "longText": "On September 11, 2024, the Rio de Janeiro Government will host a forum at Casa G20 (Laura Alvim Cultural Center) in Ipanema dedicated to strengthening Brazil’s fertilizer supply chain. Interim Secretary Fernanda Curdi will open the event, featuring a keynote by Upendra Singh (IFDC, USA) and panel discussions with representatives from the Ministries of Agriculture and Mines & Energy, BNDES, Finep, Embrapa, Sinprifert, Anda, Abisolo, Petrobras, Confap, SP Ventures, and Porto do Açu, as well as researchers from UFRJ, UFV, and IAC. The forum aims to discuss technological innovations, biodiversity, and food security in line with the 2050 National Fertilizer Plan and the establishment of the CEFENP Center of Excellence in the state.",
       "details": [
         "Location: Casa G20 – Laura Alvim Cultural Center (Ipanema)",
         "Time: 09:00–19:00",
         "Keynote: Upendra Singh (IFDC, USA)",
-        "Panels with Government, Embrapa, BNDES, Finep, Petrobras, Confap",
+        "Panels with government agencies, Embrapa, BNDES, Finep, Petrobras, and Confap",
         "Researchers from UFRJ, UFV, and IAC",
-        "Free registration at bit.ly/eventofertilizers_2024"
+        "Free registration at bit.ly/eventofertilizantes_2024"
       ]
     },
     {
       "id": 3,
-      "title": "Sports & Legacy Project",
+      "title": "Sport & Legacy Project",
       "description": "Beach Boxing for At-Risk Youth",
       "date": "15 March 2025",
-      "longText": "On March 15, 2025, the Sports & Legacy Project launched with the founding of the Beach Boxe & Beach Boxing Brasil Federation Ltda. The program offers regular beach-boxing training sessions for young people in vulnerable social situations along the waterfront, promoting discipline, physical and mental health, self-esteem, and community inclusion through sport.",
+      "longText": "On March 15, 2025, the Sport & Legacy Project launched with the founding of the Beach Boxe & Beach Boxing Brasil Ltda. federation. This program offers regular beach boxing training to socially vulnerable youth in coastal communities, promoting discipline, physical and mental health, self-esteem, and community inclusion through sport.",
       "details": [
-        "Foundation of Beach Boxe & Beach Boxing Brasil Federation Ltda.",
-        "Beach-boxing training for at-risk youth",
+        "Establishment of Beach Boxe & Beach Boxing Brasil Ltda.",
+        "Beach boxing sessions for at-risk youth",
         "Development of discipline, confidence, and teamwork",
         "Classes led by certified instructors",
         "Partnerships with local social organizations"
@@ -49,38 +49,38 @@
     },
     {
       "id": 4,
-      "title": "Bay Cleanup & Governor’s Island Revitalization Drive",
-      "description": "Lighting, Beach Cleanup, and Urban Renewal",
+      "title": "Clean Bay & Governor’s Island Revitalization",
+      "description": "Lighting, beach cleanups, and urban renewal",
       "date": "June 2025",
-      "longText": "In just six months, under Councilman Wagner Tavares’s leadership in partnership with RioLuz, Governor’s Island received new lighting across multiple areas, enhancing safety and quality of life for residents. Previously dark streets became well-lit, while parks, courts, and recreational spaces underwent significant revitalization. For the first time, Ribeira Beach saw a pioneering sand cleanup effort, demonstrating respect for the environment and islanders. The administration continues maintenance work—from tree pruning to pothole repairs—ensuring the island is cared for as it deserves.",
+      "longText": "In just six months, under City Councilor Wagner Tavares’s leadership and in partnership with RioLuz, Governor’s Island received extensive new lighting, enhancing safety and residents’ quality of life. Previously dark streets became bright and secure, while parks, courts, and recreational areas underwent revitalization. For the first time, Ribeira Beach was cleaned of debris in an unprecedented environmental effort, showing respect for both nature and islanders. The administration continues to work on tree trimming, pothole repairs, inspections, and new construction projects—taking care of the island as it deserves.",
       "details": [
-        "Installation of new lighting on streets and in plazas",
-        "Revitalization of courts and leisure areas",
-        "Tree pruning, pothole repairs, and maintenance actions",
-        "First-ever sand cleanup at Ribeira Beach",
-        "‘Carioca Islands Gardens’ bill: a cultural, gastronomic, and tourism circuit"
+        "Installation of new lighting on streets and plazas",
+        "Revitalization of courts and recreational areas",
+        "Tree trimming, pothole repairs, and maintenance",
+        "Unprecedented sand cleanup at Ribeira Beach",
+        "‘Carioca Islands Gardens’ tourism, cultural, and culinary circuit proposal"
       ]
     },
     {
       "id": 5,
-      "title": "Aqua Bossa Nova & MPB Space",
-      "description": "Cultural Season in Ipanema Dedicated to Bossa Nova and MPB",
+      "title": "Aqua Bossa Nova & Popular Music Space",
+      "description": "Cultural season in Ipanema dedicated to Bossa Nova and MPB",
       "date": "31 October 2014 – February 2016",
-      "longText": "In the cultural sphere, we created a dedicated space in Ipanema for Bossa Nova and Brazilian Popular Music (MPB). From October 31, 2014, to February 2016, we produced a series of concerts and musical gatherings—such as Mulheres & Beatles—celebrating sophisticated arrangements and harmonies. By the end of the season, we emphasized the importance of cultural incentive laws to expand the reach and impact of our projects.",
+      "longText": "In the cultural sphere, we established a space in Ipanema entirely devoted to Bossa Nova and Brazilian Popular Music. Between October 31, 2014, and February 2016, we produced a series of shows and musical gatherings—such as ‘Women & Beatles’—celebrating sophisticated arrangements and refined harmonies. At the end of the season, we emphasized the importance of leveraging cultural incentive laws to broaden the reach and impact of our projects.",
       "details": [
         "Opened on 31/10/2014",
         "Program ran through February 2016",
-        "Opening show: Mulheres & Beatles",
+        "Opening show: ‘Women & Beatles’",
         "Focus on Bossa Nova and MPB",
-        "Utilization of cultural incentive laws"
+        "Utilization of cultural incentive legislation"
       ]
     },
     {
       "id": 6,
-      "title": "Pipoca Carioca",
-      "description": "Márcia Castro Invites Baby do Brasil, Pedro Luís & Teresa Cristina",
+      "title": "Pipoca Carioca Concert",
+      "description": "Márcia Castro welcomes Baby do Brasil, Pedro Luís, and Teresa Cristina",
       "date": "15 January",
-      "longText": "Singer Márcia Castro brings her Pipoca Carioca project to the Aqua stage in a multi-generational celebration of Brazilian music. On January 15, Márcia welcomes special guests Baby do Brasil, Pedro Luís, and Teresa Cristina for a free evening of pop, samba, and MPB.",
+      "longText": "Singer Márcia Castro brings her ‘Pipoca Carioca’ project to the Aqua stage in a generational celebration of Brazilian music. On January 15, Márcia will be joined by Baby do Brasil, Pedro Luís, and Teresa Cristina for a free night of Brazilian rhythms, blending pop, samba, and MPB in a special repertoire.",
       "details": [
         "Special guests: Baby do Brasil, Pedro Luís, Teresa Cristina",
         "Venue: Aqua (Tamar Stage)",
@@ -91,14 +91,14 @@
     },
     {
       "id": 7,
-      "title": "Inauguration of Rayz’s Aqua Space",
+      "title": "Aqua Space at Rayz Inauguration",
       "description": "Leny Andrade & Guests Concert",
-      "date": "31 October & 1 November 2014",
-      "longText": "On the second floor of Rayz restaurant, Rayz’s Aqua Space opened in Ipanema with a special music and gastronomy program. Singer Leny Andrade kicked off the evenings with her MPB classics, followed by performances from Ellen Oléria, the Mulheres & Beatles quartet, American saxophonist Eddie Daniels, and Miele.",
+      "date": "31 October & 01 November 2014",
+      "longText": "On the second floor of Rayz restaurant, the Aqua Space in Ipanema was inaugurated with a special lineup of music and gastronomy. Singer Leny Andrade opened the evenings with classic MPB repertoire, followed by performances from Ellen Oléria, the ‘Women & Beatles’ quartet, American saxophonist Eddie Daniels, and Miele.",
       "details": [
-        "Line-up: Leny Andrade, Ellen Oléria, Mulheres & Beatles, Eddie Daniels, Miele",
+        "Line-up: Leny Andrade, Ellen Oléria, Women & Beatles, Eddie Daniels, and Miele",
         "Location: Aqua Space (2nd floor of Rayz Restaurant) – corner of Farme de Amoedo and Prudente de Morais, Ipanema",
-        "Date & time: Oct 31 & Nov 1, 2014; doors open at 8:30 PM",
+        "Dates & times: 31/10 and 01/11/2014, doors open at 8:30 PM",
         "Signature cocktails by Bar Chef Elvis Zonzini",
         "Special menu by Chef Daniel Pinho",
         "Free entry"

@@ -12,6 +12,10 @@ import enPortfolio from "./locales/enus/portfolio.json";
 import ptPortfolio from "./locales/ptbr/portfolio.json";
 import enAbout from "./locales/enus/about.json";
 import ptAbout from "./locales/ptbr/about.json";
+import enPublications from "./locales/enus/publications.json";
+import ptPublications from "./locales/ptbr/publications.json";
+import enContact from "./locales/enus/contact.json";
+import ptContact from "./locales/ptbr/contact.json";  
 
 i18n
   .use(LanguageDetector) // detecta idioma via localStorage/navigator
@@ -23,16 +27,20 @@ i18n
         navbar: enNavbar,
         portfolio: enPortfolio,
         about: enAbout,
+        publications: enPublications,
+        contact: enContact,
       },
       ptBR: {
         history: ptbrHistory,
         navbar: ptbrNavbar, 
         portfolio: ptPortfolio,
         about: ptAbout,
+        publications: ptPublications,
+        contact: ptContact,
       },
     },
     fallbackLng: "en",
-    ns: ["navbar", "history", "portfolio", "about"],
+    ns: ["navbar", "history", "portfolio", "about", "publications", "contact"],
     defaultNS: "navbar",
     detection: {
       order: ["localStorage", "navigator"],

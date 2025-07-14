@@ -1,8 +1,8 @@
 {
-  "sectionTitle": "Nosso Portfólio",
-  "buttonText": "Saiba Mais",
-  "backToHome": "Voltar para o Início",
-  "detailsButton": "Saiba Mais",
+  "portfolioSectionTitle": "Nossos Principais Projetos",
+  "portfolioSectionDescription": "Explore nossos projetos e iniciativas que refletem nosso compromisso com a excelência e inovação.",
+  "gallerySectionTitle": "Galeria do Instituto",
+  "gallerySectionDescription": "Explore nossos projetos e iniciativas que refletem nosso compromisso com a excelência e inovação.",
   "items": [
     {
       "id": 1,

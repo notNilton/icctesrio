@@ -50,10 +50,8 @@ const PortfolioSection: FC = () => {
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
   // Traduções simples:
-  const sectionTitle = t("sectionTitle");
-  const buttonText = t("buttonText");
-  const backToHome = t("backToHome");
-  const detailsButton = t("detailsButton");
+  const portfolioSectionTitle = t("portfolioSectionTitle");
+  const portfolioSectionDescription = t("portfolioSectionDescription");
 
   // 3) Carregue o array de projetos do JSON (sem `image`) e injete a imagem correta:
   const rawItems = t("items", { returnObjects: true }) as ProjectItem[];
@@ -89,6 +87,7 @@ const PortfolioSection: FC = () => {
         py: { xs: 4, sm: 6, md: 8 },
       }}
     >
+      {/* TÍTULO */}
       <Typography
         variant={isMobile ? "h5" : "h2"}
         sx={{
@@ -96,16 +95,34 @@ const PortfolioSection: FC = () => {
           fontWeight: 900,
           textAlign: "center",
           background: `linear-gradient(
-            45deg,
-            ${theme.palette.primary.dark} 0%,
-            ${theme.palette.grey[800]} 50%,
-            #000000 100%
-          )`,
+      45deg,
+      ${theme.palette.primary.dark} 0%,
+      ${theme.palette.grey[800]} 50%,
+      #000000 100%
+    )`,
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
         }}
       >
-        {sectionTitle}
+        {portfolioSectionTitle}
+      </Typography>
+
+      {/* DESCRIÇÃO */}
+      <Typography
+        variant={isMobile ? "body1" : "h6"}
+        sx={{
+          maxWidth: 640,
+          mx: "auto",
+          mb: 6,
+          fontWeight: 400,
+          textAlign: "center",
+          color: theme.palette.text.secondary,
+          lineHeight: 1.6,
+          letterSpacing: 0.5,
+          px: { xs: 2, sm: 0 },
+        }}
+      >
+        {portfolioSectionDescription}
       </Typography>
 
       <Slider ref={sliderRef} {...settings}>

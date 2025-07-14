@@ -24,7 +24,8 @@ const TimelineSection: React.FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-  const sectionTitle = t("sectionTitle") as string;
+  const sectionTitle = t("sectionTitle");
+  const sectionDescription = t("sectionDescription");
   const items = t("items", { returnObjects: true }) as EventTrans[];
 
   return (
@@ -37,7 +38,7 @@ const TimelineSection: React.FC = () => {
         mx: isMobile ? 2 : "15vw",
       }}
     >
-      {/* Título com gradiente */}
+      {/* TÍTULO */}
       <Typography
         variant={isMobile ? "h5" : "h2"}
         sx={{
@@ -45,16 +46,34 @@ const TimelineSection: React.FC = () => {
           fontWeight: 900,
           textAlign: "center",
           background: `linear-gradient(
-            45deg,
-            ${theme.palette.primary.dark} 0%,
-            ${theme.palette.grey[800]} 50%,
-            #000000 100%
-          )`,
+      45deg,
+      ${theme.palette.primary.dark} 0%,
+      ${theme.palette.grey[800]} 50%,
+      #000000 100%
+    )`,
           WebkitBackgroundClip: "text",
           WebkitTextFillColor: "transparent",
         }}
       >
         {sectionTitle}
+      </Typography>
+
+      {/* DESCRIÇÃO */}
+      <Typography
+        variant={isMobile ? "body1" : "h6"}
+        sx={{
+          maxWidth: 640,
+          mx: "auto",
+          mb: 6,
+          fontWeight: 400,
+          textAlign: "center",
+          color: theme.palette.text.secondary,
+          lineHeight: 1.6,
+          letterSpacing: 0.5,
+          px: { xs: 2, sm: 0 },
+        }}
+      >
+        {sectionDescription}
       </Typography>
 
       {isMobile ? (
@@ -85,7 +104,11 @@ const TimelineSection: React.FC = () => {
                 <Typography variant="h6" color="text.primary">
                   {event.title}
                 </Typography>
-                <Typography variant="body2" color="text.secondary" sx={{ mt: 1 }}>
+                <Typography
+                  variant="body2"
+                  color="text.secondary"
+                  sx={{ mt: 1 }}
+                >
                   {event.shortDescription}
                 </Typography>
               </TimelineContent>
@@ -112,7 +135,11 @@ const TimelineSection: React.FC = () => {
                 <Typography variant="h6" color="text.primary">
                   {event.title}
                 </Typography>
-                <Typography variant="body1" color="text.secondary" sx={{ mt: 1 }}>
+                <Typography
+                  variant="body1"
+                  color="text.secondary"
+                  sx={{ mt: 1 }}
+                >
                   {event.shortDescription}
                 </Typography>
               </TimelineContent>

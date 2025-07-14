@@ -51,6 +51,10 @@ const GallerySection: FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
+    // Traduzidos:
+  const gallerySectionTitle = t("gallerySectionTitle");
+  const gallerySectionDescription = t("gallerySectionDescription");
+
   // 3) pega os itens do JSON (sem imagem) e injeta o caminho correto
   const rawItems = t("items", { returnObjects: true }) as ProjectItem[];
   const items = rawItems.map(item => ({
@@ -84,24 +88,44 @@ const GallerySection: FC = () => {
           mx: isMobile ? 2 : "15vw",
         }}
       >
-        <Typography
-          variant={isMobile ? "h5" : "h2"}
-          sx={{
-            mb: 4,
-            fontWeight: 900,
-            textAlign: "center",
-            background: `linear-gradient(
-              45deg,
-              ${theme.palette.primary.dark} 0%,
-              ${theme.palette.grey[800]} 50%,
-              #000000 100%
-            )`,
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-          }}
-        >
-          {t("galleryTitle", "Nossa Galeria")}
-        </Typography>
+      {/* TÍTULO */}
+      <Typography
+        variant={isMobile ? "h5" : "h2"}
+        sx={{
+          mb: 4,
+          fontWeight: 900,
+          textAlign: "center",
+          background: `linear-gradient(
+      45deg,
+      ${theme.palette.primary.dark} 0%,
+      ${theme.palette.grey[800]} 50%,
+      #000000 100%
+    )`,
+          WebkitBackgroundClip: "text",
+          WebkitTextFillColor: "transparent",
+        }}
+      >
+        {gallerySectionTitle}
+      </Typography>
+
+      {/* DESCRIÇÃO */}
+      <Typography
+        variant={isMobile ? "body1" : "h6"}
+        sx={{
+          maxWidth: 640,
+          mx: "auto",
+          mb: 6,
+          fontWeight: 400,
+          textAlign: "center",
+          color: theme.palette.text.secondary,
+          lineHeight: 1.6,
+          letterSpacing: 0.5,
+          px: { xs: 2, sm: 0 },
+        }}
+      >
+        {gallerySectionDescription}
+      </Typography>
+
 
         <ImageList variant="masonry" cols={isMobile ? 2 : 3} gap={8}>
           {items.map((proj, idx) => (

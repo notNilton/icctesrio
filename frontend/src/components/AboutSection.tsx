@@ -34,6 +34,9 @@ const AboutSection: FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
+  const aboutSectionTitle = t("aboutSectionTitle");
+  const aboutSectionDescription = t("aboutSectionDescription");
+
   const team = t("team", { returnObjects: true }) as Member[];
 
   return (
@@ -41,11 +44,12 @@ const AboutSection: FC = () => {
       component="section"
       sx={{
         backgroundColor: theme.palette.background.default,
-                py: { xs: 4, sm: 6, md: 8 },
+        py: { xs: 4, sm: 6, md: 8 },
         px: { xs: 2, sm: 4, md: 8 },
         mx: isMobile ? 2 : "15vw",
       }}
     >
+      {/* TÍTULO */}
       <Typography
         variant={isMobile ? "h5" : "h2"}
         sx={{
@@ -62,7 +66,25 @@ const AboutSection: FC = () => {
           WebkitTextFillColor: "transparent",
         }}
       >
-        Sobre Nossa Equipe
+        {aboutSectionTitle}
+      </Typography>
+
+      {/* DESCRIÇÃO */}
+      <Typography
+        variant={isMobile ? "body1" : "h6"}
+        sx={{
+          maxWidth: 640,
+          mx: "auto",
+          mb: 6,
+          fontWeight: 400,
+          textAlign: "center",
+          color: theme.palette.text.secondary,
+          lineHeight: 1.6,
+          letterSpacing: 0.5,
+          px: { xs: 2, sm: 0 },
+        }}
+      >
+        {aboutSectionDescription}
       </Typography>
 
       <Box
