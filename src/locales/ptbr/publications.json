@@ -1,0 +1,26 @@
+{
+  "sectionTitle": "Nossas Publicações",
+  "sectionDescription": "As nossas mais recentes aparências nos jornais.",
+  "items": [
+    {
+      "id": 1,
+      "title": "Aqua Mulheres & Beatles",
+      "description": "Encontros musicais no Espaço Aqua celebrando performances femininas com tributo aos Beatles."
+    },
+    {
+      "id": 2,
+      "title": "Capa Show Aqua",
+      "description": "Cover show exclusivo no Espaço Aqua, com repertório temático e produção audiovisual impactante."
+    },
+    {
+      "id": 3,
+      "title": "Som com Sotaque Tupiniquim",
+      "description": "Apresentação de músicas brasileiras com sotaque regional, destacando ritmos e artistas locais."
+    },
+    {
+      "id": 4,
+      "title": "Lançamento 'Sete Vidas'",
+      "description": "Veja tudo o que rolou na festa de lançamento de 'Sete Vidas', dos bastidores aos principais momentos."
+    }
+  ]
+}

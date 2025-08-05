@@ -1,0 +1,26 @@
+{
+  "sectionTitle": "Our Publications",
+  "sectionDescription": "Explore our recent highlights and special events.",
+  "items": [
+    {
+      "id": 1,
+      "title": "Aqua Women & Beatles",
+      "description": "Musical gatherings at Espaço Aqua celebrating female performances with a Beatles tribute."
+    },
+    {
+      "id": 2,
+      "title": "Aqua Cover Show",
+      "description": "Exclusive cover show at Espaço Aqua, featuring a thematic repertoire and striking audiovisual production."
+    },
+    {
+      "id": 3,
+      "title": "Sound with a Brazilian Accent",
+      "description": "A showcase of Brazilian music highlighting regional rhythms and local artists."
+    },
+    {
+      "id": 4,
+      "title": "‘Sete Vidas’ Launch Party",
+      "description": "All the highlights from the ‘Sete Vidas’ launch party, from behind-the-scenes to the main moments."
+    }
+  ]
+}

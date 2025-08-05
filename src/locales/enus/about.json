@@ -1,0 +1,62 @@
+{
+  "aboutSectionTitle": "Our Team",
+  "aboutSectionDescription": "Meet the passionate professionals who drive our commitment to excellence, innovation, and community impact.",
+  "aboutSponsorsTitle": "Our Main Sporsors",
+  "team": [
+    {
+      "id": 1,
+      "name": "Dr. Wilmar Pereira dos Santos",
+      "role": "President",
+      "bio": "Lawyer with over 30 years of experience and a postgraduate degree in Civil Procedural Law. Specialist in Administrative Law and strategic legal consulting—public, procedural, and environmental. Former Chief Prosecutor for Planning and Environment at the Municipality of Búzios.",
+      "skills": [
+        "Civil Procedural Law",
+        "Administrative Law",
+        "Environmental Legal Consulting"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Raphael Souza Fonseca",
+      "role": "Administrative and Financial Director",
+      "bio": "Economist and entrepreneur with a track record at Ipiranga S/A, Grupo Abril, Mongeral Aegon, and Banco de Arbi. For the past 12 years, he has focused on real estate entrepreneurship.",
+      "skills": [
+        "Budget Planning",
+        "Cost Control",
+        "Real Estate Entrepreneurship"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Giovanna Guida da Cunha",
+      "role": "Projects Director",
+      "bio": "Architect experienced in major events such as Rock in Rio, The Town, Dinosaur Park, and Bird Park. Currently leading the architecture for the UN Climate Conference (COP) project in Belém, Pará.",
+      "skills": [
+        "Event Architecture",
+        "Project Management",
+        "Space Design"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Daniel Machado Magalhães de Almeida",
+      "role": "Secretary",
+      "bio": "Advertising professional and gastronomy entrepreneur with 21 years of experience in events, food, and culture. Led venues such as Aqua Bossa Lounge, Grupo Rayz, People, and Devassa, and was appointed Secretary of our association.",
+      "skills": [
+        "Event Production",
+        "Gastronomy",
+        "Advertising"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Armando Lito",
+      "role": "Partner, Consultant & Fundraiser",
+      "bio": "Bachelor in Administration from the Faculty of Political and Economic Sciences of Rio de Janeiro. Since June 1997, he has led PAN with a team of university students specializing in tax-incentive law and fundraising. As Administration Manager, he has coordinated over 150 socio-cultural and sports projects—from Espaço Tom Jobim to the Rio International Cello Encounter.",
+      "skills": [
+        "Administration",
+        "Fundraising",
+        "Tax-Incentive Law"
+      ]
+    }
+  ]
+}
