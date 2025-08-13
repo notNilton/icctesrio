@@ -2,14 +2,15 @@
 import React, { FC } from "react";
 import { Box, Typography, useTheme, useMediaQuery, alpha } from "@mui/material";
 import heroVideo from "../assets/videos/hero/hero-video.mp4";
+import logo from "../assets/logos/logo.svg"; // <-- Importação do SVG
 
 const HeroSection: FC = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
 
-  const fgPrimary   = theme.palette.primary.main;   // azul
+  const fgPrimary = theme.palette.primary.main;   // azul
   const fgSecondary = theme.palette.secondary.main; // amarelo
-  const baseColor   = "#F5F9FF";
+  const baseColor = "#F5F9FF";
 
   const overlayGradient = `linear-gradient(
     to bottom,
@@ -21,12 +22,14 @@ const HeroSection: FC = () => {
     <Box
       sx={{
         width: "100%",
-        height: { xs: "60vh", sm: "75vh", md: "100vh" },
+        // Alterado: mobile = 100vh, maior que sm = 75vh
+        height: { xs: "100vh", sm: "75vh", md: "80vh" },
         position: "relative",
         overflow: "hidden",
         backgroundColor: baseColor,
       }}
     >
+      {/* Vídeo de fundo */}
       <Box
         component="video"
         src={heroVideo}
@@ -50,6 +53,7 @@ const HeroSection: FC = () => {
         }}
       />
 
+      {/* Conteúdo centralizado */}
       <Box
         sx={{
           position: "absolute",
@@ -63,6 +67,20 @@ const HeroSection: FC = () => {
           zIndex: 1,
         }}
       >
+        {/* Logo SVG acima do texto */}
+        <Box
+          component="img"
+          src={logo}
+          alt="Logo ICCTES-RIO"
+          sx={{
+            width: { xs: "180px", sm: "240px", md: "300px" },
+            height: "auto",
+            mb: { xs: 2, sm: 3, md: 4 },
+            filter: "drop-shadow(0px 4px 8px rgba(0,0,0,0.1))",
+          }}
+        />
+
+        {/* Título */}
         <Typography
           variant={isMobile ? "h3" : "h1"}
           gutterBottom
@@ -76,6 +94,7 @@ const HeroSection: FC = () => {
           ICCTES-RIO
         </Typography>
 
+        {/* Subtítulo */}
         <Typography
           variant={isMobile ? "h6" : "h4"}
           sx={{
