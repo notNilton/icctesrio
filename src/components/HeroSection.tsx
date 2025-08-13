@@ -23,7 +23,7 @@ const HeroSection: FC = () => {
       sx={{
         width: "100%",
         // Alterado: mobile = 100vh, maior que sm = 75vh
-        height: { xs: "100vh", sm: "75vh", md: "80vh" },
+        height: { xs: "100vh", sm: "100vh", md: "100vh" },
         position: "relative",
         overflow: "hidden",
         backgroundColor: baseColor,
