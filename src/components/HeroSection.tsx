@@ -87,7 +87,7 @@ const HeroSection: FC = () => {
             mx: "auto",
           }}
         >
-          Instituto de Ciência, Cultura, Tecnologia, Esporte e Sociedade
+          Instituto do Cinturaão Cultura, Turístico e Esportivo do Estado do Rio de Janeiro
         </Typography>
       </Box>
     </Box>

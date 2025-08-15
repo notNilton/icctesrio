@@ -6,8 +6,8 @@ const theme = createTheme({
     mode: "light",
 
     background: {
-      default: "#F5F9FF",
-      paper: "#F5F9FF",
+      default: "#ffffffff",
+      paper: "#ffffffff",
     },
 
     text: {
