@@ -99,14 +99,14 @@ const HeroSection: FC = () => {
           variant={isMobile ? "h6" : "h4"}
           sx={{
             fontWeight: 900,
-            fontSize: { xs: "1.75rem", sm: "2.5rem", md: "2.5rem" },
+            fontSize: { xs: "1.25rem", sm: "2rem", md: "2.5rem" },
             color: fgSecondary, // amarelo
             mb: 4,
             maxWidth: "75%",
             mx: "auto",
           }}
         >
-          Instituto do Cinturaão Cultura, Turístico e Esportivo do Estado do Rio de Janeiro
+          Instituto do Cinturão Cultura, Turístico e Esportivo do Estado do Rio de Janeiro
         </Typography>
       </Box>
     </Box>
