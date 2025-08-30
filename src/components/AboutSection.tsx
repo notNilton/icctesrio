@@ -32,7 +32,7 @@ const avatarMap: Record<number, string> = {
   2: pfpraphael,
   3: pfpgiovanna,
   4: pfpdaniel,
-  5: pfparmando,
+  // 5: pfparmando,
 };
 
 const AboutSection: FC = () => {

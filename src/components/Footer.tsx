@@ -49,7 +49,7 @@ const Footer: FC = () => {
         </Typography>
 
         <Typography variant="body1" sx={{ lineHeight: 1.6, opacity: 0.9, textAlign: "center", }}>
-          Instituto de Ciência, Cultura, Tecnologia, Esporte e Sociedade do Rio
+          Instituto do Cinturaão Cultura, Turístico e Esportivo do Estado do Rio de Janeiro do Rio
           de Janeiro
         </Typography>
 

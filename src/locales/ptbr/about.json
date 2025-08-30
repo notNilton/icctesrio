@@ -46,17 +46,6 @@
         "Gastronomia",
         "Publicidade"
       ]
-    },
-    {
-      "id": 5,
-      "name": "Armando Lito",
-      "role": "Parceiro, Consultor e Captador",
-      "bio": "Bacharel em Administração pela Faculdade de Ciências Políticas e Econômicas do Rio de Janeiro. Desde junho de 1997 dirige a PAN com uma equipe de jovens universitários especializados em leis de incentivo fiscal e captação de recursos. Como Gerente de Administração, coordenou mais de 150 projetos socioculturais e esportivos — de Espaço Tom Jobim ao Rio International Cello Encounter.",
-      "skills": [
-        "Administração",
-        "Captação de Recursos",
-        "Leis de Incentivo Fiscal"
-      ]
     }
   ]
 }
