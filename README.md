@@ -1,4 +1,4 @@
-# ICCTES · Instituto do Cinturão Cultura, Turístico e Esportivo do Estado do Rio de Janeiro
+# ICCTES · Instituto do Cinturão Cultural, Turístico e Esportivo do Estado do Rio de Janeiro
 
 Plataforma digital desenvolvida com foco em promoção cultural, esportiva e turística, integrando comunidades, atrativos e eventos do Cinturão do Rio de Janeiro. O projeto utiliza tecnologias modernas como React com TypeScript e é hospedado no Firebase Hosting, permitindo escalabilidade e desempenho otimizado para acesso público.
 
@@ -111,6 +111,6 @@ Esse comando realiza:
 
 ## Sobre o ICCTES
 
-O **Instituto do Cinturão Cultura, Turístico e Esportivo do Estado do Rio de Janeiro (ICCTES)** tem como missão integrar, valorizar e desenvolver os potenciais culturais, turísticos e esportivos das regiões que compõem o Cinturão do Rio. Através de políticas públicas, parcerias e tecnologia, o instituto promove o fortalecimento comunitário, a sustentabilidade e o acesso democrático à cultura, ao esporte e ao turismo.
+O **Instituto do Cinturão Cultural, Turístico e Esportivo do Estado do Rio de Janeiro (ICCTES)** tem como missão integrar, valorizar e desenvolver os potenciais culturais, turísticos e esportivos das regiões que compõem o Cinturão do Rio. Através de políticas públicas, parcerias e tecnologia, o instituto promove o fortalecimento comunitário, a sustentabilidade e o acesso democrático à cultura, ao esporte e ao turismo.
 
 🌐 Saiba mais: [www.icctes.rj.gov.br](https://www.icctes.rj.gov.br) *(exemplo)*
